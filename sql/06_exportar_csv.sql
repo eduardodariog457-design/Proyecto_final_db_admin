@@ -1,4 +1,7 @@
 \set ON_ERROR_STOP on
+SET search_path TO streaming;
+
 \echo 'Exportando tabla artista...'
-\copy artista to 'exports/artista.csv' with (FORMAT csv, HEADER true)
+\copy artista TO 'exports/artista.csv' WITH (FORMAT csv, HEADER true)
+
 \echo 'Exportación completada.'

@@ -4,7 +4,7 @@
 \echo "Insertando Datos"
 \ir 02_datos.sql
 \echo "Creando Usuarios"
-\ir 01_usuarios_permisos.sql
+\ir 03_usuarios_permisos.sql
 
 
 

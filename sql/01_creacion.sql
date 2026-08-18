@@ -45,6 +45,8 @@ create table cancion_playlist (
         constraint chk_posicion check (posicion >= 1),
     fecha_agregada timestamptz  not null default now(),
     constraint pk_cancion_playlist primary key (id_cancion, id_playlist)
+  );
+    
 
 create index idx_artista_genero  on artista(id_genero);
 create index idx_cancion_artista on cancion(id_artista);

@@ -1,7 +1,11 @@
 \set ON_ERROR_STOP on
+SET search_path TO streaming;
+
 \echo 'Importando artistas desde CSV...'
-\copy artista from 'data/artista_export_ejemplo.csv' with (FORMAT csv, HEADER true)
+\copy artista FROM 'data/artista_export_ejemplo.csv' WITH (FORMAT csv, HEADER true)
+
 \echo 'Importando nuevos géneros desde CSV...'
-\copy genero from 'data/nuevos_generos.csv' with (FORMAT csv, HEADER true)
-\set ON_ERROR_STOP on
+\copy genero(nombre, descripcion) FROM 'data/nuevos_generos.csv' WITH (FORMAT csv, HEADER true)
+
 \echo 'Importación completada.'
+
