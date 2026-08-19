@@ -137,7 +137,18 @@ Problemas realmente encontrados en los datos de prueba: [completar, ej. "se dete
 
 Ver [`teoria_mongodb/fundamentos.md`](./teoria_mongodb/fundamentos.md).
 
-## 10. Conclusiones y fuentes
+## 10. Evidencias
+
+Las capturas de evidencia (ejecución del script de respaldo en VS Code, resultado del mantenimiento en consola, y el diagrama del modelo relacional) están disponibles en la siguiente carpeta de Drive:
+
+ [Ver evidencias en Google Drive](https://drive.google.com/drive/folders/1reaOCdHn-5qn4ckamB_B_31pR9tkNSWl?usp=sharing)
+
+Contenido de la carpeta:
+- Captura de la ejecución de `respaldo_mantenimiento.py` (respaldo generado y reporte de mantenimiento).
+- Captura del archivo `.dump` generado, visto en el explorador de VS Code.
+- Imagen del diagrama entidad-relación (`modelo_relacional.png`).
+
+## 11. Conclusiones y fuentes
 
 Este proyecto nos permitió poner en práctica las tareas principales de administración de una base de datos PostgreSQL sobre un caso real y pequeño desde el diseño de tablas relacionadas con llaves primarias y foráneas, hasta la gestión de usuarios con privilegios diferenciados, el respaldo y restauración de la base, la importación/exportación de datos, la automatización de tareas de mantenimiento y la revisión de calidad de los datos.
 
