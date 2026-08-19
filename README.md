@@ -53,14 +53,9 @@ Ejecución sugerida vía `psql`:
 
 ```bash
 psql -U postgres -d final_db -f SQL/00_crear_esquema.sql
-psql -U postgres -d final_db -f SQL/01_creación.sql
-psql -U postgres -d final_db -f SQL/02_datos.sql
-psql -U postgres -d final_db -f SQL/03_usuarios_permisos.sql
 psql -U postgres -d final_db -f SQL/04_consultas.sql
 psql -U postgres -d final_db -f SQL/05_importar_csv.sql
 psql -U postgres -d final_db -f SQL/06_exportar_csv.sql
-psql -U postgres -d final_db -f SQL/08_monitoreo.sql
-psql -U postgres -d final_db -f SQL/09_calidad_datos.sql
 psql -U postgres -d final_db -f SQL/10_calidad.sql
 ```
 
