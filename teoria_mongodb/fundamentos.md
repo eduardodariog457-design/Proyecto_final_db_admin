@@ -7,6 +7,7 @@ Una base de datos no relacional (NoSQL) es un tipo de base de datos que no organ
 Una colección es el equivalente a una tabla en un modelo relacional: es un conjunto de documentos relacionados entre sí (por ejemplo, una colección de "canciones"). Un documento es el equivalente a una fila/registro: es una unidad de información completa, guardada en formato tipo JSON. Un campo es el equivalente a una columna: es cada uno de los atributos dentro de un documento (por ejemplo, titulo, duracion, artista).
 
 Diferencias principales entre una tabla relacional y una colección de documentos
+
 •	En una tabla, todas las filas deben tener la misma estructura (mismas columnas); en una colección, cada documento puede tener campos distintos.
 •	Una tabla relacional normalmente separa la información en varias tablas conectadas por llaves foráneas; un documento puede incluir información relacionada anidada dentro de sí mismo, sin necesidad de hacer JOIN.
 •	El modelo relacional exige definir un esquema fijo antes de insertar datos; MongoDB permite un esquema flexible que puede cambiar con el tiempo.
