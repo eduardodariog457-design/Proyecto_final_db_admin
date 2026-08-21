@@ -17,3 +17,7 @@ create user usr_captura  with password 'captura_123';
 
 grant consulta to usr_consulta;
 grant captura  to usr_captura;
+
+grant usage, select on all sequences in schema streaming to captura;
+alter default privileges in schema streaming
+    grant usage, select on sequences to captura;
